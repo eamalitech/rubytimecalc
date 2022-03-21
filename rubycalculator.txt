@@ -1,0 +1,11 @@
+$ git merge edits
+$ git add .
+$ git commit -m "edits"
+[master 28665d7] edits
+$ git merge edits
+Already up-to-date.
+$ git reset HEAD 
+$ git add README.md
+$ git add "examples.md"
+$ git commit -m "exx"
+$ git branch -d edits
